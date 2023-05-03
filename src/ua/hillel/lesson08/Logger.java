@@ -1,0 +1,30 @@
+package ua.hillel.lesson08;
+public class Logger {
+    public final String message = "Logger level is: ";
+    public static final String ANSI_RED = "\u001B[32m";
+    public static final String ANSI_GREEN = "\u001B[31m";
+    public static final String ANSI_YELLOW = "\u001B[34m";
+    public static final String ANSI_BLUE = "\u001B[33m";
+    public static final String ANSI_WHITE = "\u001B[37m";
+
+    public void setLoggerLevel(LoggerLevel level) {
+        switch (level) {
+            case INFO: System.out.println(message + level + ANSI_GREEN);break;
+            case DEBUG: System.out.println(message + level + ANSI_BLUE);break;
+            case WARN: System.out.println(message + level + ANSI_YELLOW);break;
+            case ERROR: System.out.println(message + level + ANSI_RED);break;
+            default:
+                System.out.println(message + level + ANSI_WHITE);
+        }
+    }
+    public static void main(String[] args) {
+        Logger logger1 = new Logger();
+        logger1.setLoggerLevel(LoggerLevel.INFO);
+        logger1.setLoggerLevel(LoggerLevel.DEBUG);
+        logger1.setLoggerLevel(LoggerLevel.WARN);
+        logger1.setLoggerLevel(LoggerLevel.ERROR);
+
+    }
+
+}
+
