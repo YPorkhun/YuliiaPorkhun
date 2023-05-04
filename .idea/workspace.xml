@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f467e79c-03c8-42af-85f8-d9b8bf97ce35" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/IsoscelesTriangle.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/hillel/lesson08/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/hillel/lesson08/LoggerLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,13 +18,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,33 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IsoscelesTriangle">
-    <configuration name="CheckOddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.lesson03.CheckOddEven" />
-      <module name="HillelQAAutomationCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.hillel.lesson03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.lesson02.Converter" />
-      <module name="HillelQAAutomationCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.hillel.lesson02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Logger">
     <configuration name="IsoscelesTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ua.hillel.lesson03.IsoscelesTriangle" />
       <module name="HillelQAAutomationCourse" />
@@ -83,11 +63,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Logger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.lesson08.Logger" />
+      <module name="HillelQAAutomationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.lesson08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Poker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.lesson06.Poker" />
+      <module name="HillelQAAutomationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.lesson06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.lesson04.RandomArray" />
+      <module name="HillelQAAutomationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.lesson04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solitaire" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.lesson06.Solitaire" />
+      <module name="HillelQAAutomationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.lesson06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Logger" />
+        <item itemvalue="Application.Solitaire" />
+        <item itemvalue="Application.Poker" />
+        <item itemvalue="Application.RandomArray" />
         <item itemvalue="Application.IsoscelesTriangle" />
-        <item itemvalue="Application.CheckOddEven" />
-        <item itemvalue="Application.Converter" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +183,35 @@
       <option name="project" value="LOCAL" />
       <updated>1682071560187</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="deleting">
+      <created>1682071615755</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682071615755</updated>
+    </task>
+    <task id="LOCAL-00009" summary="adding lesson 04">
+      <created>1682071846927</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682071846927</updated>
+    </task>
+    <task id="LOCAL-00010" summary="adding lesson 05">
+      <created>1682072286032</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682072286032</updated>
+    </task>
+    <task id="LOCAL-00011" summary="adding lesson 06">
+      <created>1682421797074</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682421797074</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +230,10 @@
     <MESSAGE value="commit files" />
     <MESSAGE value="adding lesson 02" />
     <MESSAGE value="adding lesson 03" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding lesson 03" />
+    <MESSAGE value="deleting" />
+    <MESSAGE value="adding lesson 04" />
+    <MESSAGE value="adding lesson 05" />
+    <MESSAGE value="adding lesson 06" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding lesson 06" />
   </component>
 </project>
