@@ -10,8 +10,6 @@ public class Converter {
         double K = с + 273.16;
         System.out.println("У Фаренгейтах: " + F);
         System.out.println("У Кельвінах: " + K);
-
-
     }
 
 }
