@@ -6,7 +6,7 @@ public class Poker {
 
     public static void main(String[] args) throws PokerException {
         Poker poker = new Poker();
-        poker.choosingGame("Poker", 0);
+        poker.choosingGame("Poker", 1);
         poker.createDeck();
 
     }
