@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f467e79c-03c8-42af-85f8-d9b8bf97ce35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ua/hillel/lesson12/ShoppingList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/hillel/lesson12/SortingHat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/hillel/lesson12/WithoutDuplicateCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson02/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/hillel/lesson02/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson10/Poker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/hillel/lesson10/Poker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683742147466</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adding lesson 12">
+      <created>1684497642138</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684497642138</updated>
+    </task>
+    <task id="LOCAL-00015" summary="adding lesson 13 (maven)">
+      <created>1685172853047</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1685172853047</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,6 +271,8 @@
     <MESSAGE value="adding lesson 06" />
     <MESSAGE value="adding lesson 08" />
     <MESSAGE value="adding lesson 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding lesson 10" />
+    <MESSAGE value="adding lesson 12" />
+    <MESSAGE value="adding lesson 13 (maven)" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding lesson 13 (maven)" />
   </component>
 </project>
