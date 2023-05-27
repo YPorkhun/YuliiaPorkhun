@@ -5,12 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f467e79c-03c8-42af-85f8-d9b8bf97ce35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ua/hillel/lesson12/ShoppingList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/hillel/lesson12/SortingHat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/hillel/lesson12/WithoutDuplicateCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson02/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/hillel/lesson02/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson10/Poker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/hillel/lesson10/Poker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson02/AreaOfRightTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson02/AreaOfRightTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson02/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson02/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson03/CheckOddEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson03/CheckOddEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson03/IsoscelesTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson03/IsoscelesTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson03/PrintMonthInWord_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson03/PrintMonthInWord_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson03/PrintMonthInWord_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson03/PrintMonthInWord_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson04/RandomArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson04/RandomArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson04/TableSinX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson04/TableSinX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson05/example_file" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson05/example_file" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson06/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson06/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson06/Poker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson06/Poker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson06/Solitaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson06/Solitaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson08/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson08/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson08/LoggerLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson08/LoggerLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson10/Poker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson10/Poker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson10/PokerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson10/PokerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson10/Solitaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson10/Solitaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson12/ShoppingList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson12/ShoppingList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson12/SortingHat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson12/SortingHat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/hillel/lesson12/WithoutDuplicateCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/lesson12/WithoutDuplicateCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683742147466</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adding lesson 12">
+      <created>1684497642138</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684497642138</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,6 +287,7 @@
     <MESSAGE value="adding lesson 06" />
     <MESSAGE value="adding lesson 08" />
     <MESSAGE value="adding lesson 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding lesson 10" />
+    <MESSAGE value="adding lesson 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding lesson 12" />
   </component>
 </project>
