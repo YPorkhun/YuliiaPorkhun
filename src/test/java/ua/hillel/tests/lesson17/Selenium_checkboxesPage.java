@@ -1,5 +1,4 @@
-package ua.hillel.tests.lesson16;
-
+package ua.hillel.tests.lesson17;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,8 +7,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
-
-import java.util.List;
 
 public class Selenium_checkboxesPage {
     private static final String checkboxesPage = "https://the-internet.herokuapp.com/checkboxes";
