@@ -1,5 +1,4 @@
-package ua.hillel.tests.lesson16;
-
+package ua.hillel.tests.lesson17;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
