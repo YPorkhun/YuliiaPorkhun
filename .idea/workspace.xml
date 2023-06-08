@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f467e79c-03c8-42af-85f8-d9b8bf97ce35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson16/Selenium_challenging_domPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson16/Selenium_checkboxesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson16/Selenium_loginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson18/DragAndDropPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson18/HoverMenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson18/HoversPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/UsingTestNG_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson15/UsingTestNG_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/UsingTestNG_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson15/UsingTestNG_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/UsingTestNG_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson15/UsingTestNG_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/actions/UsingTestNG_After.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/actions/UsingTestNG_Before.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/Selenium_challenging_domPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/ChallengingDomPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/Selenium_checkboxesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/CheckboxesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/Selenium_loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <recent name="ua.hillel.lesson10" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/testng.xml">
+  <component name="RunManager" selected="TestNG.HoversPage.clearUp">
     <configuration name="C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelQAAutomationCourse" />
       <shortenClasspath name="NONE" />
@@ -91,19 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium_challenging_domPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DragAndDropPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelQAAutomationCourse" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.hillel.tests.lesson16.*" />
+          <option name="PATTERN" value="ua.hillel.tests.lesson18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson16" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson16.Selenium_challenging_domPage" />
+      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson18" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson18.DragAndDropPage" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
@@ -119,48 +118,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium_checkboxesPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DragAndDropPage.dragAndDropMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelQAAutomationCourse" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.hillel.tests.lesson16.*" />
+          <option name="PATTERN" value="ua.hillel.tests.lesson18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson16" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson16.Selenium_checkboxesPage" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium_checkboxesPage.checkAndPrintCheckboxStatuses" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HillelQAAutomationCourse" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.hillel.tests.lesson16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson16" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson16.Selenium_checkboxesPage" />
-      <option name="METHOD_NAME" value="checkAndPrintCheckboxStatuses" />
+      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson18" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson18.DragAndDropPage" />
+      <option name="METHOD_NAME" value="dragAndDropMethod" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
@@ -176,21 +147,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium_loginPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HoverMenuPage.findDropdownMenu" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelQAAutomationCourse" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.hillel.tests.lesson16.*" />
+          <option name="PATTERN" value="ua.hillel.tests.lesson18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson16" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson16.Selenium_loginPage" />
+      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson18" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson18.HoverMenuPage" />
+      <option name="METHOD_NAME" value="findDropdownMenu" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HoversPage.clearUp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelQAAutomationCourse" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.tests.lesson18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson18" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson18.HoversPage" />
+      <option name="METHOD_NAME" value="clearUp" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -226,19 +227,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.DragAndDropPage" />
+      <item itemvalue="TestNG.DragAndDropPage.dragAndDropMethod" />
+      <item itemvalue="TestNG.HoverMenuPage.findDropdownMenu" />
+      <item itemvalue="TestNG.HoversPage.clearUp" />
       <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/testng.xml" />
-      <item itemvalue="TestNG.Selenium_checkboxesPage.checkAndPrintCheckboxStatuses" />
-      <item itemvalue="TestNG.Selenium_loginPage" />
-      <item itemvalue="TestNG.Selenium_checkboxesPage" />
-      <item itemvalue="TestNG.Selenium_challenging_domPage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HoversPage.clearUp" />
         <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/testng.xml" />
-        <item itemvalue="TestNG.Selenium_checkboxesPage.checkAndPrintCheckboxStatuses" />
-        <item itemvalue="TestNG.Selenium_checkboxesPage" />
-        <item itemvalue="TestNG.Selenium_loginPage" />
-        <item itemvalue="TestNG.Selenium_challenging_domPage" />
+        <item itemvalue="TestNG.DragAndDropPage" />
+        <item itemvalue="TestNG.DragAndDropPage.dragAndDropMethod" />
+        <item itemvalue="TestNG.HoverMenuPage.findDropdownMenu" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +371,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685543466330</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="using selenium webdriver">
+      <created>1686061009282</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686061009282</updated>
+    </task>
+    <task id="LOCAL-00019" summary="using testNG">
+      <created>1686061329388</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1686061329388</updated>
+    </task>
+    <task id="LOCAL-00020" summary="rename package">
+      <created>1686127632662</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1686127632662</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,8 +420,10 @@
     <MESSAGE value="adding lesson 12" />
     <MESSAGE value="adding lesson 13 (maven)" />
     <MESSAGE value="adding groupId" />
+    <MESSAGE value="using selenium webdriver" />
     <MESSAGE value="using testNG" />
-    <option name="LAST_COMMIT_MESSAGE" value="using testNG" />
+    <MESSAGE value="rename package" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename package" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HillelQAAutomationCourse$UsingTestNG_3__1_.ic" NAME="UsingTestNG_3 (1) Coverage Results" MODIFIED="1685541937693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

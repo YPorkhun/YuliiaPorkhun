@@ -8,7 +8,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-public class Selenium_checkboxesPage {
+public class CheckboxesPage {
     private static final String checkboxesPage = "https://the-internet.herokuapp.com/checkboxes";
     private WebDriver driver;
 

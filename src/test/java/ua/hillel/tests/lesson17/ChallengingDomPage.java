@@ -8,7 +8,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.*;
 import java.util.List;
 
-public class Selenium_challenging_domPage {
+public class ChallengingDomPage {
     private static final String challengingDomPage = "https://the-internet.herokuapp.com/challenging_dom";
     private WebDriver driver;
 
