@@ -8,7 +8,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-public class Selenium_loginPage {
+public class LoginPage {
     private static final String loginPage = "https://the-internet.herokuapp.com/login";
     private static final String messageCorrectLogin = "You logged into a secure area!";
     private static final String messageIncorrectLogin = "Your username is invalid!";
