@@ -11,9 +11,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/actions/UsingTestNG_After.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/actions/UsingTestNG_Before.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/Selenium_challenging_domPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/ChallengingDomPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/Selenium_checkboxesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/CheckboxesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/Selenium_loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,57 +64,7 @@
       <recent name="ua.hillel.lesson10" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HoversPage.clearUp">
-    <configuration name="C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HillelQAAutomationCourse" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DragAndDropPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HillelQAAutomationCourse" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.hillel.tests.lesson18.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson18" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson18.DragAndDropPage" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ua.hillel.tests.lesson18">
     <configuration name="DragAndDropPage.dragAndDropMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelQAAutomationCourse" />
       <shortenClasspath name="NONE" />
@@ -147,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoverMenuPage.findDropdownMenu" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HoverMenuPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelQAAutomationCourse" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -160,7 +107,35 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson18" />
       <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson18.HoverMenuPage" />
-      <option name="METHOD_NAME" value="findDropdownMenu" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HoverMenuPage.findSecondaryAction" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelQAAutomationCourse" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.tests.lesson18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson18" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson18.HoverMenuPage" />
+      <option name="METHOD_NAME" value="findSecondaryAction" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
@@ -176,7 +151,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoversPage.clearUp" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HoversPage.hoveringUserPages" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelQAAutomationCourse" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -189,7 +164,7 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson18" />
       <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson18.HoversPage" />
-      <option name="METHOD_NAME" value="clearUp" />
+      <option name="METHOD_NAME" value="hoveringUserPages" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
@@ -226,20 +201,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ua.hillel.tests.lesson18" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelQAAutomationCourse" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.tests.lesson18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson18" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.DragAndDropPage" />
       <item itemvalue="TestNG.DragAndDropPage.dragAndDropMethod" />
-      <item itemvalue="TestNG.HoverMenuPage.findDropdownMenu" />
-      <item itemvalue="TestNG.HoversPage.clearUp" />
-      <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/testng.xml" />
+      <item itemvalue="TestNG.ua.hillel.tests.lesson18" />
+      <item itemvalue="TestNG.HoverMenuPage" />
+      <item itemvalue="TestNG.HoversPage.hoveringUserPages" />
+      <item itemvalue="TestNG.HoverMenuPage.findSecondaryAction" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HoversPage.clearUp" />
-        <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/testng.xml" />
-        <item itemvalue="TestNG.DragAndDropPage" />
+        <item itemvalue="TestNG.ua.hillel.tests.lesson18" />
+        <item itemvalue="TestNG.HoversPage.hoveringUserPages" />
         <item itemvalue="TestNG.DragAndDropPage.dragAndDropMethod" />
-        <item itemvalue="TestNG.HoverMenuPage.findDropdownMenu" />
+        <item itemvalue="TestNG.HoverMenuPage.findSecondaryAction" />
+        <item itemvalue="TestNG.HoverMenuPage" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686127632662</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="rename classes">
+      <created>1686228309668</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1686228309668</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -423,7 +433,8 @@
     <MESSAGE value="using selenium webdriver" />
     <MESSAGE value="using testNG" />
     <MESSAGE value="rename package" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename package" />
+    <MESSAGE value="rename classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename classes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HillelQAAutomationCourse$UsingTestNG_3__1_.ic" NAME="UsingTestNG_3 (1) Coverage Results" MODIFIED="1685541937693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
