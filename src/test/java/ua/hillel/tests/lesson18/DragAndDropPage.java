@@ -10,7 +10,7 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 
 /* https://crossbrowsertesting.github.io/drag-and-drop.html
-- написати тест, який буде перетаскувати елементи
+ написати тест, який буде перетаскувати елементи
 і перевіряти результат (що текст "Dropped!" відображається)
 */
 

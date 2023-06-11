@@ -11,7 +11,7 @@ import org.testng.annotations.*;
 import java.util.List;
 
 /* https://crossbrowsertesting.github.io/hover-menu.html
-- написати тест, який розкриває dropdown-меню, клікає по пункту Secondary Action
+ написати тест, який розкриває dropdown-меню, клікає по пункту Secondary Action
 і перевіряє, що на сторінці показується текст "Secondary Page"
 */
 

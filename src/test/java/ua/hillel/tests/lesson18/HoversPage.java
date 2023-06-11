@@ -8,7 +8,7 @@ import org.testng.annotations.*;
 import java.util.List;
 
 /* https://the-internet.herokuapp.com/hovers
-- написати тест, який виводить юзернейм для кожного користувача
+ написати тест, який виводить юзернейм для кожного користувача
 */
 
 public class HoversPage {
