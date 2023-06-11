@@ -2,6 +2,10 @@
 package ua.hillel.lesson03;
 import java.util.Scanner;
 
+/*
+Написати програму, яка визначає, чи є трикотник рівнобедреним. Значення сторін трикутника задавати самостійно
+*/
+
 public class IsoscelesTriangle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

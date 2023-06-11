@@ -1,6 +1,10 @@
 package ua.hillel.lesson10;
-
 import java.util.Scanner;
+
+/*
+В нашій програмі для покеру є потенційні місця, де можуть виникати помилки, а також де можна генерувати власні виключення.
+Потрібно такі місця знайти і якось обробити, а також інтегрувати власні типи Exception
+*/
 
 public class Poker {
 
@@ -8,7 +12,6 @@ public class Poker {
         Poker poker = new Poker();
         poker.choosingGame("Poker", 1);
         poker.createDeck();
-
     }
 
     public void choosingGame(String game, int players) throws PokerException {

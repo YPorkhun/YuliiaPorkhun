@@ -1,6 +1,10 @@
 package ua.hillel.lesson02;
 import java.util.Scanner;
 
+/*
+Написати програму, яка обчислює площу прямокутного трикутника, початкові значення сторін можна задати довільно.
+*/
+
 public class AreaOfRightTriangle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

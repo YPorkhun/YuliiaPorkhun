@@ -1,6 +1,13 @@
 package ua.hillel.lesson03;
 import java.util.Scanner;
 
+/*
+Написати програму "PrintMonthInWord" яка друкує "JAN", "FEB" ... "DEC" якщо значення int змінної дорівнює 1, 2, 3 ... 12.
+Або повинна вивести "Not a valid month". Розв'язати завдaння 2 способами:
+- за допомогою операторів if-else
+- за допомогою оператора switch
+*/
+
 public class PrintMonthInWord_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

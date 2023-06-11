@@ -1,6 +1,12 @@
 package ua.hillel.lesson02;
 import java.util.Scanner;
 
+/*
+Написати програму, яка конвертує градуси Цельсія у Фаренгейти и Кельвіни
+Вивід має бути приблизно таким: X C: Y F; Z K, де X - початкове значення в градусах Цельсія,
+Y и Z - обчислені значення в Фаренгейтах и Кельвінах відповідно.
+*/
+
 public class Converter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

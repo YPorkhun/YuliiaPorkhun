@@ -2,6 +2,10 @@ package ua.hillel.tests.lesson15;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+/* -тест на логін, який приймає ім'я користувача, його пароль та роль.
+Тестові дані потрібно сгенерувати через dataprovider, тест додати до групи login
+*/
+
 public class UsingTestNG_1 {
     @Test ( description = "first_test",
             priority = 10,

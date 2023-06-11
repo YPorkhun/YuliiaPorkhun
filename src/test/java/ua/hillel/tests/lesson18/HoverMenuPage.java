@@ -1,5 +1,4 @@
 package ua.hillel.tests.lesson18;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,8 +8,12 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.*;
-
 import java.util.List;
+
+/* https://crossbrowsertesting.github.io/hover-menu.html
+- написати тест, який розкриває dropdown-меню, клікає по пункту Secondary Action
+і перевіряє, що на сторінці показується текст "Secondary Page"
+*/
 
 public class HoverMenuPage {
     private static final String hoverMenuPage = "https://crossbrowsertesting.github.io/hover-menu.html";

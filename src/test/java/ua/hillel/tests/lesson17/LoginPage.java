@@ -8,6 +8,11 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+/* https://the-internet.herokuapp.com/login - написати 2 тести на коректний та некоректний логін.
+В першому випадку перевірити, що відображається повідомлення "You logged into a secure area!",
+в другому випадку - що відображається повідомлення про неправильний логін/пароль
+*/
+
 public class LoginPage {
     private static final String loginPage = "https://the-internet.herokuapp.com/login";
     private static final String messageCorrectLogin = "You logged into a secure area!";
