@@ -1,4 +1,11 @@
 package ua.hillel.lesson08;
+/*
+Написати свій клас Logger, який потім можна використовувати в різних місцях нашиї програм.
+Логер має підтримувати різні рівні логування (info, debug, warn, error).
+Можна створити Enum для різних рівнів, щоб передевати його як параметр, або ж використовувати в конкретних методах під кожний рівень.
+Як міняти колір тексту в консолі:
+https://stackoverflow.com/questions/5762491/how-to-print-color-in-console-using-system-out-println
+*/
 public class Logger {
     public final String message = "Logger level is: ";
     public static final String ANSI_RED = "\u001B[32m";

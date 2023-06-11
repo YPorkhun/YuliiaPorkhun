@@ -8,6 +8,10 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+/* https://the-internet.herokuapp.com/checkboxes
+- вивести на екран початковий стан чекбоксів (вибраний чи ні), потім вибрати обидва.
+*/
+
 public class CheckboxesPage {
     private static final String checkboxesPage = "https://the-internet.herokuapp.com/checkboxes";
     private WebDriver driver;

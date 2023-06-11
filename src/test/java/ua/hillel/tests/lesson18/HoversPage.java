@@ -1,13 +1,15 @@
 package ua.hillel.tests.lesson18;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.*;
-
 import java.util.List;
+
+/* https://the-internet.herokuapp.com/hovers
+ написати тест, який виводить юзернейм для кожного користувача
+*/
 
 public class HoversPage {
     private static final String hoversPage = "https://the-internet.herokuapp.com/hovers";

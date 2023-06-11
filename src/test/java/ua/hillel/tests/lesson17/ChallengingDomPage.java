@@ -8,6 +8,10 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.*;
 import java.util.List;
 
+/* https://the-internet.herokuapp.com/challenging_dom - потрібно знайти і клікнути по кожній кнопці,
+після чого вибрати всі значення з 4го стовбця таблиці і вивести їх на екран
+*/
+
 public class ChallengingDomPage {
     private static final String challengingDomPage = "https://the-internet.herokuapp.com/challenging_dom";
     private WebDriver driver;

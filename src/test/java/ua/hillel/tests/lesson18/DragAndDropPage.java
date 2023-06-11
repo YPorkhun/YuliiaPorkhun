@@ -9,6 +9,11 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+/* https://crossbrowsertesting.github.io/drag-and-drop.html
+ написати тест, який буде перетаскувати елементи
+і перевіряти результат (що текст "Dropped!" відображається)
+*/
+
 public class DragAndDropPage {
     private static final String dragAndDropPage = "https://crossbrowsertesting.github.io/drag-and-drop.html";
     private static final String message = "Dropped!";

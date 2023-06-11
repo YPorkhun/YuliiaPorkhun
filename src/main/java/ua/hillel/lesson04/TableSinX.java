@@ -1,4 +1,8 @@
 package ua.hillel.lesson04;
+
+/*
+Написати програму, яка друкує таблицю значень sin(x), де х - кожні 10 градусів від 0 до 360
+*/
 public class TableSinX {
     public static void main(String[] args) {
         int arrayTable [] = new int [360];
