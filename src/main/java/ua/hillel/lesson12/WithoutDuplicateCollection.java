@@ -1,5 +1,4 @@
 package ua.hillel.lesson12;
-
 import java.util.*;
 
 public class WithoutDuplicateCollection {
