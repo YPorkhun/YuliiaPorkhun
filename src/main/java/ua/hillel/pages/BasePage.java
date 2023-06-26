@@ -14,8 +14,6 @@ public class BasePage {
         this.driver = driver;
         webDriverWait = new WebDriverWait (driver, Duration.ofSeconds(10));
     }
-
-
     protected void clickButton (WebElement button) {
        webDriverWait.until(ExpectedConditions.elementToBeClickable(button)).click();
     }
