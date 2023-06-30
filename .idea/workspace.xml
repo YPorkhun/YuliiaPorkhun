@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f467e79c-03c8-42af-85f8-d9b8bf97ce35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/pages/FileDownloadPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/pages/FileUploaderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson22/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson22/FileDownloadUploadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/pages/DynamicallyLoadedPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/pages/FileDownloadPage_Selenide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/pages/FileUploaderPage_Selenide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson23/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson23/DynamicallyLoadedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson23/FileDownloadUploadTest_Selenide.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hillel/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson22/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson22/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +61,7 @@
       <recent name="ua.hillel.lesson10" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yuliia\IdeaProjects\HillelQAAutomationCourse\target\downloads" />
       <recent name="C:\Users\Yuliia\IdeaProjects\HillelQAAutomationCourse\target" />
       <recent name="C:\Users\Yuliia\IdeaProjects\HillelQAAutomationCourse\target\test-classes" />
       <recent name="C:\Users\Yuliia\IdeaProjects\HillelQAAutomationCourse\src\test\resources" />
@@ -66,16 +70,51 @@
       <recent name="ua.hillel.lesson10" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FileDownloadUploadTest">
-    <configuration name="C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DynamicallyLoadedTest">
+    <configuration name="DynamicallyLoadedTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelQAAutomationCourse" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.tests.lesson23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson23" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson23.DynamicallyLoadedTest" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicallyLoadedTest.DynamicallyLoadedTest_1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelQAAutomationCourse" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.tests.lesson23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson23" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson23.DynamicallyLoadedTest" />
+      <option name="METHOD_NAME" value="DynamicallyLoadedTest_1" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -117,78 +156,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileDownloadUploadTest.fileDownloadAndUpload" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FileDownloadUploadTest_Selenide" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelQAAutomationCourse" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.hillel.tests.lesson22.*" />
+          <option name="PATTERN" value="ua.hillel.tests.lesson23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson22" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson22.FileDownloadUploadTest" />
-      <option name="METHOD_NAME" value="fileDownloadAndUpload" />
+      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson23" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson23.FileDownloadUploadTest_Selenide" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileDownloadUploadTest_Selenide.fileDownloadAndUpload_Selenide" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelQAAutomationCourse" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.tests.lesson23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson23" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson23.FileDownloadUploadTest_Selenide" />
+      <option name="METHOD_NAME" value="fileDownloadAndUpload_Selenide" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest_negative_PO" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HillelQAAutomationCourse" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.hillel.tests.lesson20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson19" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson20.LoginTest_negative_PO" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest_positive_PO" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HillelQAAutomationCourse" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.hillel.tests.lesson20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson19" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson20.LoginTest_positive_PO" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -224,19 +235,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.DynamicallyLoadedTest" />
+      <item itemvalue="TestNG.DynamicallyLoadedTest.DynamicallyLoadedTest_1" />
+      <item itemvalue="TestNG.FileDownloadUploadTest_Selenide" />
+      <item itemvalue="TestNG.FileDownloadUploadTest_Selenide.fileDownloadAndUpload_Selenide" />
       <item itemvalue="TestNG.FileDownloadUploadTest" />
-      <item itemvalue="TestNG.FileDownloadUploadTest.fileDownloadAndUpload" />
-      <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/testng.xml" />
-      <item itemvalue="TestNG.LoginTest_negative_PO" />
-      <item itemvalue="TestNG.LoginTest_positive_PO" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DynamicallyLoadedTest" />
+        <item itemvalue="TestNG.FileDownloadUploadTest_Selenide" />
+        <item itemvalue="TestNG.FileDownloadUploadTest_Selenide.fileDownloadAndUpload_Selenide" />
         <item itemvalue="TestNG.FileDownloadUploadTest" />
-        <item itemvalue="TestNG.FileDownloadUploadTest.fileDownloadAndUpload" />
-        <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/testng.xml" />
-        <item itemvalue="TestNG.LoginTest_positive_PO" />
-        <item itemvalue="TestNG.LoginTest_negative_PO" />
+        <item itemvalue="TestNG.DynamicallyLoadedTest.DynamicallyLoadedTest_1" />
       </list>
     </recent_temporary>
   </component>
@@ -424,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687266566502</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="adding lesson 22 working with files">
+      <created>1687793858410</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1687793858410</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -458,7 +476,8 @@
     <MESSAGE value="rename classes" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="adding lesson 20 (Page Factory)" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding lesson 20 (Page Factory)" />
+    <MESSAGE value="adding lesson 22 working with files" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding lesson 22 working with files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HillelQAAutomationCourse$UsingTestNG_3__1_.ic" NAME="UsingTestNG_3 (1) Coverage Results" MODIFIED="1685541937693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
