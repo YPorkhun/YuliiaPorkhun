@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f467e79c-03c8-42af-85f8-d9b8bf97ce35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/pages/DynamicallyLoadedPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/pages/FileDownloadPage_Selenide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/pages/FileUploaderPage_Selenide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson23/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson23/DynamicallyLoadedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson23/FileDownloadUploadTest_Selenide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/rest/DeleteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/rest/GetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/rest/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/rest/DeleteControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/rest/GetControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/rest/PostControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson22/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson22/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,35 @@
       <recent name="ua.hillel.lesson10" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DynamicallyLoadedTest">
+  <component name="RunManager" selected="TestNG.PostControllerTest">
+    <configuration name="DeleteControllerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelQAAutomationCourse" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.tests.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.tests.rest" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.rest.DeleteControllerTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DynamicallyLoadedTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelQAAutomationCourse" />
       <shortenClasspath name="NONE" />
@@ -99,48 +126,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicallyLoadedTest.DynamicallyLoadedTest_1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetControllerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelQAAutomationCourse" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.hillel.tests.lesson23.*" />
+          <option name="PATTERN" value="ua.hillel.tests.rest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson23" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson23.DynamicallyLoadedTest" />
-      <option name="METHOD_NAME" value="DynamicallyLoadedTest_1" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileDownloadUploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HillelQAAutomationCourse" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.hillel.tests.lesson22.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson22" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson22.FileDownloadUploadTest" />
+      <option name="PACKAGE_NAME" value="ua.hillel.tests.rest" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.rest.GetControllerTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
@@ -156,21 +154,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileDownloadUploadTest_Selenide" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetControllerTest.getStoreOrder" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelQAAutomationCourse" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.hillel.tests.lesson23.*" />
+          <option name="PATTERN" value="ua.hillel.tests.rest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson23" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson23.FileDownloadUploadTest_Selenide" />
+      <option name="PACKAGE_NAME" value="ua.hillel.tests.rest" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.rest.GetControllerTest" />
+      <option name="METHOD_NAME" value="getStoreOrder" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -184,22 +183,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileDownloadUploadTest_Selenide.fileDownloadAndUpload_Selenide" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostControllerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelQAAutomationCourse" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.hillel.tests.lesson23.*" />
+          <option name="PATTERN" value="ua.hillel.tests.rest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson23" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson23.FileDownloadUploadTest_Selenide" />
-      <option name="METHOD_NAME" value="fileDownloadAndUpload_Selenide" />
+      <option name="PACKAGE_NAME" value="ua.hillel.tests.rest" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.rest.PostControllerTest" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -235,19 +233,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.DeleteControllerTest" />
+      <item itemvalue="TestNG.GetControllerTest" />
+      <item itemvalue="TestNG.GetControllerTest.getStoreOrder" />
+      <item itemvalue="TestNG.PostControllerTest" />
       <item itemvalue="TestNG.DynamicallyLoadedTest" />
-      <item itemvalue="TestNG.DynamicallyLoadedTest.DynamicallyLoadedTest_1" />
-      <item itemvalue="TestNG.FileDownloadUploadTest_Selenide" />
-      <item itemvalue="TestNG.FileDownloadUploadTest_Selenide.fileDownloadAndUpload_Selenide" />
-      <item itemvalue="TestNG.FileDownloadUploadTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PostControllerTest" />
+        <item itemvalue="TestNG.GetControllerTest" />
+        <item itemvalue="TestNG.DeleteControllerTest" />
+        <item itemvalue="TestNG.GetControllerTest.getStoreOrder" />
         <item itemvalue="TestNG.DynamicallyLoadedTest" />
-        <item itemvalue="TestNG.FileDownloadUploadTest_Selenide" />
-        <item itemvalue="TestNG.FileDownloadUploadTest_Selenide.fileDownloadAndUpload_Selenide" />
-        <item itemvalue="TestNG.FileDownloadUploadTest" />
-        <item itemvalue="TestNG.DynamicallyLoadedTest.DynamicallyLoadedTest_1" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687793858410</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="adding lesson 23 Selenide">
+      <created>1688120204142</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1688120204142</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -477,7 +482,8 @@
     <MESSAGE value="refactoring" />
     <MESSAGE value="adding lesson 20 (Page Factory)" />
     <MESSAGE value="adding lesson 22 working with files" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding lesson 22 working with files" />
+    <MESSAGE value="adding lesson 23 Selenide" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding lesson 23 Selenide" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HillelQAAutomationCourse$UsingTestNG_3__1_.ic" NAME="UsingTestNG_3 (1) Coverage Results" MODIFIED="1685541937693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
