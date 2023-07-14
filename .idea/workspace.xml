@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f467e79c-03c8-42af-85f8-d9b8bf97ce35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/rest/DeleteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/rest/GetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/rest/PostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/rest/DeleteControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/rest/GetControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/rest/PostControllerTest.java" afterDir="false" />
+    <list default="true" id="f467e79c-03c8-42af-85f8-d9b8bf97ce35" name="Changes" comment="adding lesson 25 rest API automation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hillel/rest/GetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/rest/GetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/hillel/rest/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/hillel/rest/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson23/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson23/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/rest/DeleteControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/rest/DeleteControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/rest/GetControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/rest/GetControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,62 +68,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.PostControllerTest">
-    <configuration name="DeleteControllerTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HillelQAAutomationCourse" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.hillel.tests.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.tests.rest" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.rest.DeleteControllerTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynamicallyLoadedTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HillelQAAutomationCourse" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.hillel.tests.lesson23.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson23" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson23.DynamicallyLoadedTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GetControllerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelQAAutomationCourse" />
       <shortenClasspath name="NONE" />
@@ -141,35 +83,6 @@
       <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.rest.GetControllerTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetControllerTest.getStoreOrder" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HillelQAAutomationCourse" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.hillel.tests.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="ua.hillel.tests.rest" />
-      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.rest.GetControllerTest" />
-      <option name="METHOD_NAME" value="getStoreOrder" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -211,6 +124,93 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostControllerTest.postCreateUserUsingGsonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelQAAutomationCourse" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.tests.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.tests.rest" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.rest.PostControllerTest" />
+      <option name="METHOD_NAME" value="postCreateUserUsingGsonTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostControllerTest.postPetTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelQAAutomationCourse" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.tests.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.tests.rest" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.rest.PostControllerTest" />
+      <option name="METHOD_NAME" value="postPetTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostControllerTest.postStoreOrderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelQAAutomationCourse" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.tests.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.tests.rest" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.rest.PostControllerTest" />
+      <option name="METHOD_NAME" value="postStoreOrderTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Durl=https://www.google.com.ua/ -Dbrowser=chrome" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -233,19 +233,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.DeleteControllerTest" />
+      <item itemvalue="TestNG.PostControllerTest.postCreateUserUsingGsonTest" />
+      <item itemvalue="TestNG.PostControllerTest.postPetTest" />
+      <item itemvalue="TestNG.PostControllerTest.postStoreOrderTest" />
       <item itemvalue="TestNG.GetControllerTest" />
-      <item itemvalue="TestNG.GetControllerTest.getStoreOrder" />
       <item itemvalue="TestNG.PostControllerTest" />
-      <item itemvalue="TestNG.DynamicallyLoadedTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.PostControllerTest" />
+        <item itemvalue="TestNG.PostControllerTest.postPetTest" />
+        <item itemvalue="TestNG.PostControllerTest.postCreateUserUsingGsonTest" />
+        <item itemvalue="TestNG.PostControllerTest.postStoreOrderTest" />
         <item itemvalue="TestNG.GetControllerTest" />
-        <item itemvalue="TestNG.DeleteControllerTest" />
-        <item itemvalue="TestNG.GetControllerTest.getStoreOrder" />
-        <item itemvalue="TestNG.DynamicallyLoadedTest" />
       </list>
     </recent_temporary>
   </component>
@@ -447,7 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688120204142</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="adding lesson 25 rest API automation">
+      <created>1689177942435</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1689177942435</updated>
+    </task>
+    <task id="LOCAL-00029" summary="using gson/lombok annotation">
+      <created>1689264404625</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1689264404625</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +497,9 @@
     <MESSAGE value="adding lesson 20 (Page Factory)" />
     <MESSAGE value="adding lesson 22 working with files" />
     <MESSAGE value="adding lesson 23 Selenide" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding lesson 23 Selenide" />
+    <MESSAGE value="adding lesson 25 rest API automation" />
+    <MESSAGE value="using gson/lombok annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="using gson/lombok annotation" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HillelQAAutomationCourse$UsingTestNG_3__1_.ic" NAME="UsingTestNG_3 (1) Coverage Results" MODIFIED="1685541937693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
