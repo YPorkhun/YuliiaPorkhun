@@ -1,5 +1,4 @@
 package ua.hillel.tests.lesson23;
-
 import com.codeborne.selenide.Configuration;
 import org.testng.annotations.BeforeClass;
 
