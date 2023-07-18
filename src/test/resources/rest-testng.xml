@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite_2 - API test" verbose="1" parallel="false">
+    <test name="First API automation" >
+        <classes>
+            <class name="ua.hillel.tests.rest.GetControllerTest"></class>
+        </classes>
+    </test>
+</suite>
