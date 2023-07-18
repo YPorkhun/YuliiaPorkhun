@@ -1,5 +1,4 @@
 package ua.hillel.tests.lesson20;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import ua.hillel.pages.LoginPage;
