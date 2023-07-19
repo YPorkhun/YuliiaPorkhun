@@ -2,8 +2,8 @@
 
 <suite name="Suite_2 - API test" verbose="1" parallel="false">
     <test name="First API automation" >
-        <classes>
-            <class name="ua.hillel.tests.rest.GetControllerTest"></class>
-        </classes>
+        <packages>
+            <package name="ua.hillel.tests.rest"/>
+        </packages>
     </test>
 </suite>
