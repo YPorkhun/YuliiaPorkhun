@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12daa495-761b-4531-8517-4d0dd083d107" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/resources/ui-testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ui-testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/ChallengingDomPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/ChallengingDomPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/CheckboxesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/CheckboxesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson18/DragAndDropPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson18/DragAndDropPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson18/HoverMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson18/HoverMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson18/HoversPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson18/HoversPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +266,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690131325088</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="changing set up browser">
+      <created>1690131724339</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690131724339</updated>
+    </task>
+    <task id="LOCAL-00014" summary="changing browser">
+      <created>1690132001061</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690132001061</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -270,6 +290,8 @@
     <MESSAGE value="adding rest package" />
     <MESSAGE value="adding suite xml file with ui tests" />
     <MESSAGE value="upd" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd" />
+    <MESSAGE value="changing set up browser" />
+    <MESSAGE value="changing browser" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing browser" />
   </component>
 </project>

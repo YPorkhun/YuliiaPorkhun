@@ -3,6 +3,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.*;
 import java.util.List;
@@ -20,8 +21,8 @@ public class HoversPage {
     public void setUpBrowser(String browser) {
         if (browser.equals("chrome")) {
             WebDriverManager.chromedriver().setup();
-        } else if (browser.equals("edge")) {
-            WebDriverManager.edgedriver().setup();
+        } else if (browser.equals("firefox")) {
+            WebDriverManager.firefoxdriver().setup();
         } else throw new Error("You should set up the browser");
     }
 
@@ -31,7 +32,7 @@ public class HoversPage {
         if (browser.equals("chrome")) {
             driver = new ChromeDriver();
         } else if (browser.equals("firefox")) {
-            driver = new EdgeDriver();
+            driver = new FirefoxDriver();
         } else throw new Error("You should creating an object of browser class");
         driver.manage().window().maximize();
     }

@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
@@ -22,7 +23,7 @@ public class CheckboxesPage {
         if (browser.equals("chrome")) {
             WebDriverManager.chromedriver().setup();
         } else if (browser.equals("firefox")) {
-            WebDriverManager.edgedriver().setup();
+            WebDriverManager.firefoxdriver().setup();
         } else throw new Error("You should set up the browser");
     }
 
@@ -32,7 +33,7 @@ public class CheckboxesPage {
         if (browser.equals("chrome")) {
             driver = new ChromeDriver();
         } else if (browser.equals("firefox")) {
-            driver = new EdgeDriver();
+            driver = new FirefoxDriver();
         } else throw new Error("You should creating an object of browser class");
         driver.manage().window().maximize();
     }
