@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12daa495-761b-4531-8517-4d0dd083d107" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/ChallengingDomPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/ChallengingDomPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/CheckboxesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/CheckboxesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson17/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson18/DragAndDropPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson18/DragAndDropPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson18/HoverMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson18/HoverMenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson18/HoversPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/hillel/tests/lesson18/HoversPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +40,7 @@
       <recent name="C:\Users\Yuliia\IdeaProjects\HillelQAAutomationCourse\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/ui-testng.xml (1)">
+  <component name="RunManager" selected="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/testng.xml">
     <configuration name="C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/rest-testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelQAAutomationCourse" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/rest-testng.xml" />
@@ -94,6 +88,26 @@
       <envs>
         <env name="Dbrowser" value="${browser}" />
       </envs>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/ui-testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelQAAutomationCourse" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/ui-testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=firefox" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -165,11 +179,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/ui-testng.xml (1)" />
-        <item itemvalue="TestNG.ChallengingDomPage" />
-        <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/ui-testng.xml" />
-        <item itemvalue="TestNG.ChallengingDomPage" />
         <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/rest-testng.xml" />
+        <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/ui-testng.xml (1)" />
+        <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/ui-testng.xml" />
+        <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/ui-testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690132001061</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="changing browser">
+      <created>1690132456929</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1690132456929</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
