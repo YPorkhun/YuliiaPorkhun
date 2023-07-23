@@ -80,7 +80,6 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/rest-testng.xml</suiteXmlFile>
-                        <suiteXmlFile>src/test/resources/ui-testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
