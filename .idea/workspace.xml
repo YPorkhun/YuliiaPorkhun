@@ -40,7 +40,7 @@
       <recent name="C:\Users\Yuliia\IdeaProjects\HillelQAAutomationCourse\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/ui-testng.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/ui-testng.xml (1)">
     <configuration name="C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/rest-testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelQAAutomationCourse" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/rest-testng.xml" />
@@ -61,6 +61,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/ui-testng.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelQAAutomationCourse" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/ui-testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/ui-testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HillelQAAutomationCourse" />
       <shortenClasspath name="NONE" />
@@ -71,6 +81,7 @@
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=chrome" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="PROPERTIES_FILE" value="" />
@@ -111,7 +122,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChallengingDomPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HillelQAAutomationCourse" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.hillel.tests.lesson17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ua.hillel.tests.lesson17" />
+      <option name="MAIN_CLASS_NAME" value="ua.hillel.tests.lesson17.ChallengingDomPage" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-Dbrowser=chrome" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/ui-testng.xml (1)" />
       <item itemvalue="TestNG.ChallengingDomPage" />
       <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/rest-testng.xml" />
       <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/testng.xml" />
@@ -119,10 +159,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/ui-testng.xml (1)" />
+        <item itemvalue="TestNG.ChallengingDomPage" />
         <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/ui-testng.xml" />
         <item itemvalue="TestNG.ChallengingDomPage" />
         <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/testng.xml" />
-        <item itemvalue="TestNG.C:/Users/Yuliia/IdeaProjects/HillelQAAutomationCourse/src/test/resources/rest-testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690123634662</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="upd">
+      <created>1690130833679</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690130833679</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

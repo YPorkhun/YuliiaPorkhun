@@ -5,9 +5,6 @@
         <parameter name ="browser" value="chrome"/>
         <packages>
             <package name="ua.hillel.tests.lesson18"/>
-            <package name="ua.hillel.tests.lesson20"/>
-            <package name="ua.hillel.tests.lesson22"/>
-            <package name="ua.hillel.tests.lesson23"/>
         </packages>
     </test>
 </suite>
