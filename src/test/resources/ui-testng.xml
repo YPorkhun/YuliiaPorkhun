@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite_3 - UI test" verbose="1" parallel="false">
+    <test name="UI automation with using reports" >
+        <packages>
+            <package name="ua.hillel.tests.lesson17"/>
+            <package name="ua.hillel.tests.lesson18"/>
+            <package name="ua.hillel.tests.lesson20"/>
+            <package name="ua.hillel.tests.lesson22"/>
+            <package name="ua.hillel.tests.lesson23"/>
+        </packages>
+    </test>
+</suite>

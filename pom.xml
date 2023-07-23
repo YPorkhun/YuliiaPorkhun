@@ -20,6 +20,7 @@
         <json.version>20230618</json.version>
         <gson.version>2.10.1</gson.version>
         <lombok.version>1.18.28</lombok.version>
+
     </properties>
     <dependencies>
     <dependency>
@@ -70,7 +71,6 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
@@ -80,6 +80,7 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/rest-testng.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/ui-testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
