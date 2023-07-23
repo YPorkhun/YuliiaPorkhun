@@ -14,13 +14,9 @@ public class BaseTest {
         } else if (browser.equals("firefox")) {
             WebDriverManager.edgedriver().setup();
         } else throw new Error("You should set up the browser");
-    }
-    @BeforeClass
-    public void setUp () {
-        Configuration.browser = "chrome";
+
         Configuration.downloadsFolder = "target/downloads/";
         Configuration.savePageSource = false;
         Configuration.timeout = 10000;
     }
-
 }
