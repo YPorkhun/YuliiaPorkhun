@@ -2,7 +2,7 @@
 
 <suite name="Suite_3 - UI test" verbose="1" parallel="false">
     <test name="UI automation with using reports" >
-        <parameter name ="browser" value="chrome"/>
+        <parameter name ="browser" value="firefox"/>
         <packages>
             <package name="ua.hillel.tests.lesson18"/>
         </packages>
