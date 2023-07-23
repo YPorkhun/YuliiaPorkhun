@@ -4,7 +4,6 @@
     <test name="UI automation with using reports" >
         <parameter name ="browser" value="chrome"/>
         <packages>
-            <package name="ua.hillel.tests.lesson17"/>
             <package name="ua.hillel.tests.lesson18"/>
             <package name="ua.hillel.tests.lesson20"/>
             <package name="ua.hillel.tests.lesson22"/>
