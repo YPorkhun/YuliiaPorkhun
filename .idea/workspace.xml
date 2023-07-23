@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="12daa495-761b-4531-8517-4d0dd083d107" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690132456929</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="upd">
+      <created>1690133417506</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1690133417506</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -310,9 +318,9 @@
     <MESSAGE value="update pom.xml" />
     <MESSAGE value="adding rest package" />
     <MESSAGE value="adding suite xml file with ui tests" />
-    <MESSAGE value="upd" />
     <MESSAGE value="changing set up browser" />
     <MESSAGE value="changing browser" />
-    <option name="LAST_COMMIT_MESSAGE" value="changing browser" />
+    <MESSAGE value="upd" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd" />
   </component>
 </project>
