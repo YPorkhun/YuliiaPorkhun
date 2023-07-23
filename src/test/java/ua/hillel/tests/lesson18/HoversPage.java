@@ -30,7 +30,7 @@ public class HoversPage {
     public void creatingObjectOfBrowser(String browser) {
         if (browser.equals("chrome")) {
             driver = new ChromeDriver();
-        } else if (browser.equals("edge")) {
+        } else if (browser.equals("firefox")) {
             driver = new EdgeDriver();
         } else throw new Error("You should creating an object of browser class");
         driver.manage().window().maximize();

@@ -21,7 +21,7 @@ public class ChallengingDomPage {
     public void setUpBrowser(String browser) {
         if (browser.equals("chrome")) {
             WebDriverManager.chromedriver().setup();
-        } else if (browser.equals("edge")) {
+        } else if (browser.equals("firefox")) {
             WebDriverManager.edgedriver().setup();
         } else throw new Error("You should set up the browser");
     }
@@ -31,7 +31,7 @@ public class ChallengingDomPage {
     public void creatingObjectOfBrowser(String browser) {
         if (browser.equals("chrome")) {
             driver = new ChromeDriver();
-        } else if (browser.equals("edge")) {
+        } else if (browser.equals("firefox")) {
             driver = new EdgeDriver();
         } else throw new Error("You should creating an object of browser class");
         driver.manage().window().maximize();
