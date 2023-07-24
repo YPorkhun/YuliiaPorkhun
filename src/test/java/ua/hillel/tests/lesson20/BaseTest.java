@@ -1,10 +1,13 @@
 package ua.hillel.tests.lesson20;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
+import ua.hillel.tests.listeners.CustomExtentReportsListener;
+
+@Listeners ({CustomExtentReportsListener.class})
 
 public class BaseTest {
     protected WebDriver driver;
