@@ -6,12 +6,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
+import ua.hillel.tests.listeners.CustomExtentReportsListener;
 
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
-
+@Listeners({CustomExtentReportsListener.class})
 public class BaseTest {
 
     protected WebDriver driver;
